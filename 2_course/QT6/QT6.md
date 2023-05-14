@@ -1,4 +1,4 @@
-# 1
+# 1.
 ```python
 import csv
 
@@ -9,7 +9,7 @@ with open('files/ikea.csv', encoding="utf8") as csvfile:
             break
         print(row)
 ```
-# 2
+# 2.
 ```python
 import csv
 
@@ -19,7 +19,7 @@ with open('files/квадраты.csv', 'w', newline='', encoding="utf8") as csv
     for i in range(10):
         writer.writerow([i, i ** 2, "Квадрат числа %d равен %d" % (i, i ** 2)])
 ```
-# 3
+# 3.
 ```python
 import csv
 import sys
@@ -57,7 +57,7 @@ if __name__ == '__main__':
     ex.show()
     sys.exit(app.exec())
 ```
-# 4
+# 4.
 ```python
 import csv
 import sys
